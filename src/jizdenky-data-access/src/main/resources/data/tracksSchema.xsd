@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author Ondrej Mejzlik -->
+
+<xsd:schema version="1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    
+  <xsd:element name="tracks">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="track" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="id_station" maxOccurs="2" type="xsd:positiveInteger"/>
+              <xsd:element name="length" type="xsd:positiveInteger"/>
+              <xsd:element name="trains">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="id_train" maxOccurs="unbounded" type="xsd:positiveInteger"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+              <xsd:attribute name="tr_id" type="xsd:positiveInteger" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+      <xsd:unique name="UniqueTr_id">
+        <xsd:selector xpath="./track"/>
+        <xsd:field xpath="@tr_id"/>
+      </xsd:unique>
+  </xsd:element>
+
+</xsd:schema>

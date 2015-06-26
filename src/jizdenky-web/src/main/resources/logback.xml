@@ -1,0 +1,38 @@
+<configuration>
+    <contextName>Calendar</contextName>
+
+    <!--<if condition='isDefined("catalina.base")'>-->
+        <!--<then>-->
+            <appender name="Server" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${catalina.base}/logs/${CONTEXT_NAME}.log</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                    <fileNamePattern>${catalina.base}/logs/${CONTEXT_NAME}.log.%d{yyyy-MM-dd}</fileNamePattern>
+                </rollingPolicy>
+                <withJansi>true</withJansi>
+                <encoder>
+                    <!-- http://logback.qos.ch/manual/layouts.html#conversionWord -->
+                    <pattern>%d [%thread] %-5level %logger{36} - %msg%n</pattern>
+                </encoder>
+            </appender>
+        <!--</then>-->
+        <!--<else>-->
+            <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+                <withJansi>true</withJansi>
+                <encoder>
+                    <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{40} -> %msg%n</pattern>
+                </encoder>
+            </appender>
+        <!--</else>-->
+    <!--</if>-->
+
+    <!-- toto prepise root level -->
+    <logger name="cz.muni.fi.pb138.jizdenky" level="error"/>
+    <logger name="cz.muni.fi.pb138.jizdenky" level="warn"/>
+    <logger name="cz.muni.fi.pb138.jizdenky" level="info"/>
+    <logger name="cz.muni.fi.pb138.jizdenky" level="debug"/>
+    <logger name="cz.muni.fi.pb138.jizdenky" level="trace"/>
+
+    <root level="info">
+        <appender-ref ref="Console"/>
+    </root>
+</configuration>

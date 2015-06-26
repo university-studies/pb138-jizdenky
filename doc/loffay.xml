@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article 
+    xmlns="http://docbook.org/ns/docbook" 
+    version="5.0" 
+    xml:lang="sk">
+
+    <articleinfo>
+        <title>PB138 Projekt - Jizdenky</title>
+        <subtitle>Web modul, tomcat7:run, IoC, JS</subtitle>
+        <author>
+            <firstname>Pavol</firstname>
+            <surname>Loffay</surname>
+        </author>
+        <pubdate><?dbtimestamp?></pubdate>
+    </articleinfo>
+
+    <section>
+        <title>Webový modul</title>
+        <para>
+            Webový modul som implementoval s použitím frameworku Spring MVC. 
+            Tento framework mi umožnil jednoduchšiu prácu s servletmi a dalšími komponentami, ktoré 
+            poskytuje Java EE. Tento framework som zvolil aj zásluhou toho, že implementuje návrohový 
+            vzor model-view-controller. Technológia na generovanie dynamických stránok som použil JSP,
+            kvôli silnej podpore a dobrej použitelnosti. Dalšou zvažovanou technológiou bol templatovací
+            systém Velocity.
+        </para>
+    </section>
+
+    <section>
+        <title>Spring IoC - Dependency injection</title>
+        <para>
+            Vo webovom module bolo potrebné na základe dát zadaných z formulára od užívatela zistit 
+            cestu vlakom a vypocítat cenu lístka. Túto funkcionalitu nám poskytujú triedy z business vrstvy.
+            Aby som predišiel silným závislostiam medzi modulmi použil som IoC kontajner, ktorú nám 
+            zabezpecí životný cyklus spravovaných komponent. Podobným riešením by bolo instanciovat 
+            business triedy v Context listenery a vložit ich do Servlet kontajnera. Toto riešenie však
+            nie je vhodné z hladiska ak by sme chceli použit servisné triedy v inom projekte pomocou IoC.
+            V našom riešení sa len znova nacita konfiguracný súbor z classpath a Spring vytvorí potrebné 
+            beany.
+        </para>
+    </section>
+
+    <section>
+        <title>Automatické spustenie tomcat7:run</title>
+        <para>
+            Pre rýchly iteratívný vývoj som použil plugin do mavenu, ktorý spustí webovú aplikáciu bez
+            nutnosti mat nainštalovaný servlet kontajner. Plugin stiahne Tomcat 7 a následne
+            deployne aplikáciu. Plugin výrazne ulahcil spústanie aplikácie pre testovanie.
+        </para>
+    </section>
+
+    <section>
+        <title>JavaScrip, CSS</title>
+        <para>
+            Moderné webové užívatelské rozhranie sa nezaobíde bez použitia interaktívnych prvkov.
+            Preto som použil knižnicu jQuery a jQuery-UI, ktorá poskytuje datepicker. Dalej bol použitý 
+            Select2, na vyhladávanie zastávok. Na úpravu vzhladu stránok bol použitý framewrok Twitter Bootstrap.
+        </para>
+    </section>
+</article>

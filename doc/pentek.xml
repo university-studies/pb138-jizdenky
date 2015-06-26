@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article 
+    xmlns="http://docbook.org/ns/docbook" 
+    version="5.0" 
+    xml:lang="sk">
+          
+  <articleinfo>
+    <title>Sprava k rieseniu projektu jizdenky</title>
+    <author>
+      <firstname>Oliver</firstname>
+      <surname>Pentek</surname>
+    </author>
+    <pubdate><?dbtimestamp?></pubdate>
+  </articleinfo>
+
+  <section>
+    <title>Datova vrstva</title>
+    <para>Datova vrstva vyuziva navrhovy vzor DAO, ktoreho implementacia mapuje XML subory na entitne Java objekty. Pri implementacii som vyuzil DOM. Subory XML v tejto aplikacii sluzia ako primarny zdroj dat. 
+    </para>
+</section>
+<section>
+    <title>Grafova databaza</title>
+    <para>Kvoli potrebe skladania jednotlivych tras (rozumej najblizsie dve zastavky) do celej celej 'cesty' sme sa rozhodli pouzit grafovu databazu Neo4J. Do nej sa po spusteni aplikacie ulozia vsetky dostupne zastavky ako uzly a jednotlive trasy ako vztahy medzi nimi ohodnotene dlzkou patricnej trasy. Grafova databaza nam teda umoznuje vyskladat celu cestu z jednotlivych tras prehladavanim do sirky s pociatocnym uzlom ekvivalentnym pociatocnej zastavke. Nasledne nam vrati zoznam celych tras, ktorymi sa mozeme dostat z pociatocnej do cielovej zastavky.
+    </para>
+    </section>
+<section>
+    <title>Hierarchia zliav</title>
+    <para>Hierarchia zliav je implementovana pomocou dedicnosti. Zakladnym delenim je zlava uplatnujuca sa na vsetkych cestujucich naraz a zlava uplatnujuca sa na kazdu osobu jednotlivo.
+    </para>
+    </section>
+<section>
+    <title>Pomoc kolegom</title>
+    <para>Pocas riesenia celeho projektu som sa snazil pomahat kolegom pri rieseni ich casti projektu. Finalna verzia projektu miestami odzrkadluje ich nedostatocne skusenosti. Bohuzial podla mojho nazorou prerekvizity tohto predmetu nereflektuju potrebne znalosti a skusenosti, ktore su potrebne pri rieseni projektu takehoto zadania.
+    </para>
+  </section>
+</article>
+

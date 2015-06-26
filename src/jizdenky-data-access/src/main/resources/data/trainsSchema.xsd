@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author Ondrej Mejzlik -->
+
+<xsd:schema version="1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    
+  <xsd:element name="trains">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="train" minOccurs="0" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="name" type="train_name"/>
+              <xsd:element name="start_station" type="xsd:positiveInteger"/>
+              <xsd:element name="start_time" type="xsd:time"/>
+            </xsd:sequence>
+            <xsd:attribute name="t_id" type="xsd:positiveInteger" use="required"/>
+            <xsd:attribute name="type" type="type" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>  
+      <xsd:unique name="UniqueS_id">
+        <xsd:selector xpath="./train"/>
+        <xsd:field xpath="@t_id"/>
+      </xsd:unique>
+  </xsd:element>    
+  
+  <xsd:simpleType name="train_name">
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"></xsd:minLength>
+    </xsd:restriction>   
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="type">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="R|OS|IC|EC|SP|EX|EN|SC"></xsd:pattern>
+    </xsd:restriction>   
+  </xsd:simpleType>
+
+</xsd:schema>

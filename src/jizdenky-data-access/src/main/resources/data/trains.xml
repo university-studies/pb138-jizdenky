@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- author Ondrej Mejzlik -->
+
+<trains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="trainsSchema.xsd">
+    
+  <train t_id="1" type="R">
+    <name>R779Spicak</name>
+    <start_station>2813</start_station>
+    <start_time>05:30:00</start_time>
+  </train>
+  
+  <train t_id="2" type="R">
+    <name>R751Uhlava</name>
+    <start_station>1757</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="3" type="R">
+    <name>R756Zbiroh</name>
+    <start_station>721</start_station>
+    <start_time>07:20:00</start_time>
+  </train>    
+  
+  <train t_id="4" type="R">
+    <name>R771Radyne</name>
+    <start_station>168</start_station>
+    <start_time>05:00:00</start_time>
+  </train>
+  
+  <train t_id="5" type="R">
+    <name>R753Radbuza</name>
+    <start_station>721</start_station>
+    <start_time>06:30:00</start_time>
+  </train>
+  
+  <train t_id="6" type="OS">
+    <name>OS7817</name>
+    <start_station>2587</start_station>
+    <start_time>06:00:00</start_time>
+  </train>
+  
+  <train t_id="7" type="OS">
+    <name>OS8865</name>
+    <start_station>168</start_station>
+    <start_time>08:10:00</start_time>
+  </train>
+  
+  <train t_id="8" type="OS">
+    <name>OS3616</name>
+    <start_station>1757</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="9" type="OS">
+    <name>OS3734</name>
+    <start_station>305</start_station>
+    <start_time>04:30:00</start_time>
+  </train>  
+  
+  <train t_id="10" type="OS">
+    <name>OS13027</name>
+    <start_station>1651</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="11" type="IC">
+    <name>452Ostravan</name>
+    <start_station>1845</start_station>
+    <start_time>06:00:00</start_time>
+  </train>
+  
+  <train t_id="12" type="IC">
+    <name>1000RegioJet</name>
+    <start_station>1845</start_station>
+    <start_time>06:30:00</start_time>
+  </train>    
+  
+  <train t_id="13" type="IC">
+    <name>550ZlinskyExpress</name>
+    <start_station>2766</start_station>
+    <start_time>07:10:00</start_time>
+  </train>
+  
+  <train t_id="14" type="IC">
+    <name>560Sohaj</name>
+    <start_station>1651</start_station>
+    <start_time>06:30:00</start_time>
+  </train>
+  
+  <train t_id="15" type="IC">
+    <name>1004RegioJet</name>
+    <start_station>2589</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="16" type="EC">
+    <name>120Hradcany</name>
+    <start_station>1845</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="17" type="EC">
+    <name>378SlovenskaStrela</name>
+    <start_station>2487</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="18" type="EC">
+    <name>78JohanGregorMendel</name>
+    <start_station>168</start_station>
+    <start_time>08:00:00</start_time>
+  </train> 
+  
+  <train t_id="19" type="EC">
+    <name>152JanPerner</name>
+    <start_station>1609</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="20" type="EC">
+    <name>104Sobieski</name>
+    <start_station>1919</start_station>
+    <start_time>07:20:00</start_time>
+  </train>
+  
+  <train t_id="21" type="SP">
+    <name>SP1738</name>
+    <start_station>168</start_station>
+    <start_time>07:30:00</start_time>
+  </train>    
+  
+  <train t_id="22" type="SP">
+    <name>SP1738</name>
+    <start_station>1919</start_station>
+    <start_time>06:10:00</start_time>
+  </train>
+  
+  <train t_id="23" type="SP">
+    <name>SP2746</name>
+    <start_station>2487</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="24" type="SP">
+    <name>SP800</name>
+    <start_station>1845</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="25" type="SP">
+    <name>SP9657</name>
+    <start_station>1757</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="26" type="EX">
+    <name>EX356KarelCapek</name>
+    <start_station>1845</start_station>
+    <start_time>07:20:00</start_time>
+  </train>
+  
+  <train t_id="27" type="EX">
+    <name>EX354FranzKafka</name>
+    <start_station>1757</start_station>
+    <start_time>07:30:00</start_time>
+  </train>    
+  
+  <train t_id="28" type="EX">
+    <name>EX352JanHus</name>
+    <start_station>1845</start_station>
+    <start_time>06:10:00</start_time>
+  </train>
+  
+  <train t_id="29" type="EX">
+    <name>EX350AlbertEinstein</name>
+    <start_station>1757</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="30" type="EX">
+    <name>EX458GaelFairwell</name>
+    <start_station>1651</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="31" type="EN">
+    <name>476Metropol</name>
+    <start_station>168</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="32" type="EN">
+    <name>477Metropol</name>
+    <start_station>1845</start_station>
+    <start_time>07:20:00</start_time>
+  </train>
+  
+  <train t_id="33" type="EN">
+    <name>421Metropol</name>
+    <start_station>1651</start_station>
+    <start_time>07:30:00</start_time>
+  </train>    
+  
+  <train t_id="34" type="EN">
+    <name>653Metropol</name>
+    <start_station>1757</start_station>
+    <start_time>06:10:00</start_time>
+  </train>
+  
+  <train t_id="35" type="EN">
+    <name>324Metropol</name>
+    <start_station>308</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="36" type="SC">
+    <name>SCSlovan</name>
+    <start_station>168</start_station>
+    <start_time>07:00:00</start_time>
+  </train>
+  
+  <train t_id="37" type="SC">
+    <name>SCRadobyl</name>
+    <start_station>94</start_station>
+    <start_time>08:00:00</start_time>
+  </train>
+  
+  <train t_id="38" type="SC">
+    <name>SCShubert</name>
+    <start_station>2589</start_station>
+    <start_time>07:20:00</start_time>
+  </train>
+  
+  <train t_id="39" type="SC">
+    <name>SCRip</name>
+    <start_station>1757</start_station>
+    <start_time>07:30:00</start_time>
+  </train>    
+  
+  <train t_id="40" type="SC">
+    <name>SCSapphira</name>
+    <start_station>721</start_station>
+    <start_time>06:10:00</start_time>
+  </train>
+</trains>

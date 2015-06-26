@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- author Ondrej Mejzlik -->
+
+<tracks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="tracksSchema.xsd">
+  <track tr_id="1">
+    <id_station>1651</id_station>
+    <id_station>70</id_station>
+    <length>29</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+  
+  <track tr_id="2">
+    <id_station>70</id_station>
+    <id_station>2267</id_station>
+    <length>21</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+  
+  <track tr_id="3">
+    <id_station>2267</id_station>
+    <id_station>677</id_station>
+    <length>21</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="4">
+    <id_station>677</id_station>
+    <id_station>1197</id_station>
+    <length>14</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="5">
+    <id_station>1197</id_station>
+    <id_station>1919</id_station>
+    <length>15</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="6">
+    <id_station>1919</id_station>
+    <id_station>961</id_station>
+    <length>16</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="7">
+    <id_station>961</id_station>
+    <id_station>1520</id_station>
+    <length>10</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="8">
+    <id_station>1520</id_station>
+    <id_station>2701</id_station>
+    <length>24</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="9">
+    <id_station>2701</id_station>
+    <id_station>578</id_station>
+    <length>25</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="10">
+    <id_station>578</id_station>
+    <id_station>87</id_station>
+    <length>6</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="11">
+    <id_station>87</id_station>
+    <id_station>168</id_station>
+    <length>11</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="12">
+    <id_station>168</id_station>
+    <id_station>2660</id_station>
+    <length>31</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="13">
+    <id_station>2660</id_station>
+    <id_station>2308</id_station>
+    <length>14</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="14">
+    <id_station>2308</id_station>
+    <id_station>2721</id_station>
+    <length>6</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="15">
+    <id_station>2721</id_station>
+    <id_station>189</id_station>
+    <length>19</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="16">
+    <id_station>189</id_station>
+    <id_station>563</id_station>
+    <length>34</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="17">
+    <id_station>563</id_station>
+    <id_station>1993</id_station>
+    <length>24</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="18">
+    <id_station>1993</id_station>
+    <id_station>2206</id_station>
+    <length>36</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="19">
+    <id_station>2206</id_station>
+    <id_station>1678</id_station>
+    <length>20</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="20">
+    <id_station>1678</id_station>
+    <id_station>704</id_station>
+    <length>19</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="21">
+    <id_station>704</id_station>
+    <id_station>1919</id_station>
+    <length>18</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="22">
+    <id_station>1919</id_station>
+    <id_station>1609</id_station>
+    <length>27</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="23">
+    <id_station>1609</id_station>
+    <id_station>291</id_station>
+    <length>22</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="24">
+    <id_station>291</id_station>
+    <id_station>2709</id_station>
+    <length>31</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="25">
+    <id_station>2709</id_station>
+    <id_station>305</id_station>
+    <length>32</length>
+    <trains>
+      <id_train>9</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="26">
+    <id_station>305</id_station>
+    <id_station>2294</id_station>
+    <length>15</length>
+    <trains>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="27">
+    <id_station>2294</id_station>
+    <id_station>1145</id_station>
+    <length>27</length>
+    <trains>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="28">
+    <id_station>1145</id_station>
+    <id_station>2123</id_station>
+    <length>11</length>
+    <trains>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="29">
+    <id_station>2123</id_station>
+    <id_station>79</id_station>
+    <length>16</length>
+    <trains>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="30">
+    <id_station>79</id_station>
+    <id_station>168</id_station>
+    <length>18</length>
+    <trains>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="31">
+    <id_station>168</id_station>
+    <id_station>2384</id_station>
+    <length>29</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>2</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="32">
+    <id_station>2384</id_station>
+    <id_station>1089</id_station>
+    <length>30</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>2</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="33">
+    <id_station>1089</id_station>
+    <id_station>2802</id_station>
+    <length>42</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>2</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="34">
+    <id_station>2802</id_station>
+    <id_station>1926</id_station>
+    <length>16</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>2</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="35">
+    <id_station>1926</id_station>
+    <id_station>517</id_station>
+    <length>15</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>2</id_train>
+      <id_train>10</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="36">
+    <id_station>517</id_station>
+    <id_station>2287</id_station>
+    <length>19</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="37">
+    <id_station>2287</id_station>
+    <id_station>253</id_station>
+    <length>41</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="38">
+    <id_station>253</id_station>
+    <id_station>967</id_station>
+    <length>26</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>4</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="39">
+    <id_station>967</id_station>
+    <id_station>1918</id_station>
+    <length>36</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="40">
+    <id_station>1918</id_station>
+    <id_station>1691</id_station>
+    <length>18</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="41">
+    <id_station>1691</id_station>
+    <id_station>1433</id_station>
+    <length>9</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="42">
+    <id_station>1433</id_station>
+    <id_station>732</id_station>
+    <length>17</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="43">
+    <id_station>732</id_station>
+    <id_station>2494</id_station>
+    <length>16</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="44">
+    <id_station>2494</id_station>
+    <id_station>305</id_station>
+    <length>13</length>
+    <trains>
+      <id_train>7</id_train>
+      <id_train>28</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="45">
+    <id_station>967</id_station>
+    <id_station>1707</id_station>
+    <length>19</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>28</id_train>
+      <id_train>4</id_train>
+      <id_train>7</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="46">
+    <id_station>1707</id_station>
+    <id_station>1816</id_station>
+    <length>11</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>28</id_train>
+      <id_train>4</id_train>
+      <id_train>7</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="47">
+    <id_station>1816</id_station>
+    <id_station>1845</id_station>
+    <length>40</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>28</id_train>
+      <id_train>4</id_train>
+      <id_train>7</id_train>
+      <id_train>10</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="48">
+    <id_station>1845</id_station>
+    <id_station>2073</id_station>
+    <length>29</length>
+    <trains>
+      <id_train>6</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="49">
+    <id_station>2073</id_station>
+    <id_station>268</id_station>
+    <length>27</length>
+    <trains>
+      <id_train>6</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="50">
+    <id_station>268</id_station>
+    <id_station>1601</id_station>
+    <length>31</length>
+    <trains>
+      <id_train>6</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="51">
+    <id_station>1601</id_station>
+    <id_station>2352</id_station>
+    <length>42</length>
+    <trains>
+      <id_train>6</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="52">
+    <id_station>2352</id_station>
+    <id_station>2587</id_station>
+    <length>43</length>
+    <trains>
+      <id_train>6</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="53">
+    <id_station>2587</id_station>
+    <id_station>863</id_station>
+    <length>33</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="54">
+    <id_station>863</id_station>
+    <id_station>595</id_station>
+    <length>37</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="55">
+    <id_station>595</id_station>
+    <id_station>998</id_station>
+    <length>19</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="56">
+    <id_station>998</id_station>
+    <id_station>846</id_station>
+    <length>9</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="57">
+    <id_station>846</id_station>
+    <id_station>517</id_station>
+    <length>26</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+      <id_train>14</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="58">
+    <id_station>1845</id_station>
+    <id_station>1034</id_station>
+    <length>22</length>
+    <trains>
+      <id_train>6</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="59">
+    <id_station>1845</id_station>
+    <id_station>2713</id_station>
+    <length>26</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="60">
+    <id_station>2713</id_station>
+    <id_station>52</id_station>
+    <length>11</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="61">
+    <id_station>52</id_station>
+    <id_station>2756</id_station>
+    <length>8</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="62">
+    <id_station>2756</id_station>
+    <id_station>760</id_station>
+    <length>23</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="63">
+    <id_station>760</id_station>
+    <id_station>1998</id_station>
+    <length>15</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="64">
+    <id_station>1998</id_station>
+    <id_station>1757</id_station>
+    <length>21</length>
+    <trains>
+      <id_train>30</id_train>
+      <id_train>7</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="65">
+    <id_station>1757</id_station>
+    <id_station>1523</id_station>
+    <length>20</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="66">
+    <id_station>1523</id_station>
+    <id_station>1506</id_station>
+    <length>28</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="67">
+    <id_station>1506</id_station>
+    <id_station>582</id_station>
+    <length>21</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="68">
+    <id_station>582</id_station>
+    <id_station>2226</id_station>
+    <length>22</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="69">
+    <id_station>2226</id_station>
+    <id_station>1987</id_station>
+    <length>20</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="70">
+    <id_station>1987</id_station>
+    <id_station>1908</id_station>
+    <length>27</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="71">
+    <id_station>1908</id_station>
+    <id_station>322</id_station>
+    <length>5</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="72">
+    <id_station>322</id_station>
+    <id_station>308</id_station>
+    <length>30</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+
+  <track tr_id="73">
+    <id_station>308</id_station>
+    <id_station>2587</id_station>
+    <length>31</length>
+    <trains>
+      <id_train>2</id_train>
+      <id_train>8</id_train>
+    </trains>
+  </track>
+</tracks>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article 
+    xmlns="http://docbook.org/ns/docbook" 
+    version="5.0" 
+    xml:lang="cs">
+    
+  <articleinfo>
+    <title>Zpráva k řešení projektu Jízdenky</title>
+    <author>
+      <firstname>Ondřej</firstname>
+      <surname>Mejzlík</surname>
+    </author>
+    <pubdate><?dbtimestamp?></pubdate>
+  </articleinfo>
+
+  <section>
+    <title>Databáze zastávek</title>
+    <para>
+      Aplikace pracuje se třemi základními XML databázemi, ze kterých čerpá data pro svoje fungování.<sbr/>
+      V XML souborech jsou uložené zastávky, vlaky a trasy. Pro získání zastávek, jsem se rozhodl využít seznam skutečných železničních
+      zastávek, který je dostupný na internetu v PDF formátu. PDF jsem převedl pomocí softwarového nástroje do čistého textu a následně s použitím
+      linuxových nástrojů pro práci s textem v příkazovém řádku upravil tak, aby bylo možné výsledný soubor pohodlně zpracovat javovým parserem a převést
+      všechny zastávky do XML. Z původního textového výstupu byly postupně odebrány informace, které nebyly potřeba pro převod do XML.<sbr/>
+      Původní text vypadal takto: "    330159 Adamov (trať 260)". Posloupností příkazů:<sbr/>
+      sed -e 's/[0-9][0-9][0-9][0-9][0-9][0-9] /:/' zastavky.txt > zastavky1.txt<sbr/>
+      sed 's/([^)]*)//g' zastavky1.txt > zastavky2.txt<sbr/>
+      sed 's/,//g' zastavky2.txt > zastavky3.txt<sbr/>
+      sed 's/    ://' zastavky3.txt > zastavky4.txt<sbr/>
+      nl -w4 -nln -s ":" zastavky4.txt > zastavky5.txt<sbr/>
+      sed -e 's/ \+//' zastavky5.txt > zastavky6.txt<sbr/>
+      jsem získal výstup "1:Adamov". <sbr/> Úvodní číslo bylo použito jako ID zastávky po převodu do XML. Čísla zón, jsem přidal zvlášť v OpenOffice Calc
+      a konečný vystup měl tuto formu: "1:225 Adamov". <sbr/>
+      Javovým parserem s použitím DOM manipulace s XML jsem následně převedl všechny zastávky do výsledné XML databáze. Bylo převedeno celkem 2838 zastávek,
+      ale pro potřeby projektu jich bylo použito méně. Ke XML souboru jsem vytvořil XML schéma pro účely kontroly. ID zastávky je použito databázi tras na
+      vytvoření dílčích tras mezi páry zastávek, ze kterých se skládá celá trasa pomocí grafové databáze. Zóna nakonec nebyla využita.
+    </para>
+  </section>
+  <section>
+    <title>Databáze vlaků</title>
+    <para>
+      Databáze vlaků obsahuje 40 vlaků. V konečné verzi projektu jich bylo použito méně. Každý vlak má své ID, typ, jméno, počáteční stanici a počáteční čas.
+      Vlaky jsou jednotlivým trasám přiřazeny v databázi tras. U každého spojení dvojce zastávek, které tvoří dílčí část větších tras, je uveden seznam
+      vlaků, které touto trasou mohou projíždět. K souboru jsem opět vytvořil validační schéma pro účely kontroly správnosti zapsaných údajů.
+    </para>
+  </section>
+  <section>
+    <title>Mapa a databáze tras</title>
+    <para>
+      Pro účely projektu, jsem nakreslil mapu použitých tras s přiřazenými vlaky. Mapa je nakreslená podle výřezu reálné železniční trati, pouze přiřazení
+      vlaků je rozdílné. Trasy jsem vybral tak, aby mezi jednotlivými městy vedlo více možných spojení a bylo možné demonstrovat výběr výhodné trasy.
+      Mapa je vytvořena pomocí vektorové grafiky pro jednodušší modifikaci. <sbr/>
+      Trasy jsou v databázi vytvořeny jako dvojce pomocí svých ID z databáze zastávek. Každá dvojce vyjadřuje jedno spojení mezi dvěma bezprostředně
+      následujícími zastávkami uvnitř celé trasy. Následující dílčí spojení začíná koncovou zastávkou předchozího a tímto způsobem na sebe dále zastávky
+      navazují a tvoří celou železnici. Spojení jsem vytvářel podle předem nakreslené mapy. Každá dvojce obsahuje údaj o vzdálenosti
+      a seznam vlaků s použitím jejich ID z databáze vlaků, které mohou trasou projíždět. Vzdálenost je použita pro výpočet celkové délky trasy a
+      výpočet ceny cesty, na kterou jsou následně aplikovány slevy. K souboru jsem napsal validační schéma pro ověření.
+      Grafová databáze použitá pro vyhledávání tras, čerpá údaje z XML databází zastávek a tras, ze kterých vytvoří uzly a ohodnocené hrany.
+    </para>
+  </section>
+  <section>
+    <title>Wiki a prezentace</title>
+    <para>
+      Pro projekt jsem založil wiki stránku na našem google code repositáři a upravoval jsem ji podle vývoje našeho projektu. <sbr/>
+      Před obhajobou jsem připravil základ prezentace, do které si každý člen našeho týmu následně doplnil svou část.
+    </para>
+  </section>
+</article>

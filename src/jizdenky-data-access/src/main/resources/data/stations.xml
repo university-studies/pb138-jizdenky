@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- author Ondrej Mejzlik -->
+
+<train_stations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="stationsSchema.xsd">
+
+    <station s_id="1651" zone="915">Ostrava hlavní nádraží</station>
+    <station s_id="70" zone="235">Bílovec</station>
+    <station s_id="2267" zone="935">Suchdol nad Odrou</station>
+    <station s_id="677" zone="900">Hranice na Moravě</station>
+    <station s_id="1197" zone="430">Lipník nad Bečvou</station>
+    <station s_id="1919" zone="265">Přerov</station>
+    <station s_id="961" zone="666">Kojetín</station>
+    <station s_id="1520" zone="815">Nezamyslice</station>
+    <station s_id="2701" zone="101">Vyškov na Moravě</station>
+    <station s_id="578" zone="831">Holubice</station>
+    <station s_id="87" zone="555">Blažovice</station>
+    <station s_id="168" zone="246">Brno hlavní nádraží</station>
+    <station s_id="2660" zone="101">Vranovice</station>
+    <station s_id="2308" zone="535">Šakvice</station>
+    <station s_id="189" zone="835">Břeclav</station>
+    <station s_id="563" zone="560">Hodonín</station>
+    <station s_id="1993" zone="520">Rohatec</station>
+    <station s_id="2206" zone="620">Staré Město u Uherského Hradiště</station>
+    <station s_id="704" zone="550">Hulín</station>
+    <station s_id="1609" zone="610">Olomouc hlavní nádraží</station>
+    <station s_id="291" zone="760">Červenka</station>
+    <station s_id="305" zone="575">Česká Třebová</station>
+    <station s_id="1145" zone="945">Letovice</station>
+    <station s_id="2123" zone="535">Skalice nad Svitavou </station>
+    <station s_id="2384" zone="653">Tišnov</station>
+    <station s_id="1089" zone="275">Křižanov</station>
+    <station s_id="2802" zone="101">Žďár nad Sázavou</station>
+    <station s_id="1926" zone="410">Přibyslav</station>
+    <station s_id="517" zone="247">Havlíčkův Brod </station>
+    <station s_id="2287" zone="935">Světlá nad Sázavou</station>
+    <station s_id="253" zone="235">Čáslav</station>
+    <station s_id="967" zone="675">Kolín</station>
+    <station s_id="1918" zone="340">Přelouč</station>
+    <station s_id="1691" zone="355">Pardubice hlavní nádraží</station>
+    <station s_id="1433" zone="510">Moravany</station>
+    <station s_id="732" zone="340">Choceň</station>
+    <station s_id="2494" zone="436">Ústí nad Orlicí</station>
+    <station s_id="1707" zone="425">Pečky</station>
+    <station s_id="1816" zone="330">Poříčany</station>
+    <station s_id="1845" zone="265">Praha hlavní nádraží</station>
+    <station s_id="2073" zone="847">Říčany</station>
+    <station s_id="268" zone="730">Čerčany</station>
+    <station s_id="1601" zone="530">Olbramovice</station>
+    <station s_id="2352" zone="610">Tábor</station>
+    <station s_id="2587" zone="101">Veselí nad Lužnicí</station>
+    <station s_id="863" zone="310">Jindřichův Hradec</station>
+    <station s_id="595" zone="525">Horní Cerekev</station>
+    <station s_id="998" zone="220">Kostelec u Jihlavy</station>
+    <station s_id="846" zone="815">Jihlava</station>
+    <station s_id="2713" zone="100">Zadní Třebaň </station>
+    <station s_id="52" zone="449">Beroun</station>
+    <station s_id="2756" zone="100">Zdice</station>
+    <station s_id="760" zone="650">Chrást u Plzně</station>
+    <station s_id="1998" zone="275">Rokycany</station>
+    <station s_id="1757" zone="260">Plzeň hlavní nádraží</station>
+    <station s_id="1523" zone="857">Nezvěstice</station>
+    <station s_id="1506" zone="255">Nepomuk</station>
+    <station s_id="582" zone="468">Horažďovice předměstí</station>
+    <station s_id="2226" zone="610">Strakonice</station>
+    <station s_id="1987" zone="685">Ražice</station>
+    <station s_id="1908" zone="810">Protivín</station>
+    <station s_id="322" zone="695">Číčenice</station>
+    <station s_id="308" zone="256">České Budějovice</station>
+    <station s_id="79" zone="955">Blansko</station>
+    <station s_id="2709" zone="101">Zábřeh na Moravě</station>
+    <station s_id="1034" zone="257">Kralupy nad Vltavou</station>
+    <station s_id="2721" zone="101">Zaječí</station>
+    <station s_id="1678" zone="427">Otrokovice</station>
+    <station s_id="2294" zone="440">Svitavy</station>
+</train_stations>
